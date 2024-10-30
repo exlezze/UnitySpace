@@ -2,7 +2,7 @@
 
 ### Список всех нужных иконок:
 
-### addfriend.png
+###### addfriend.png
 ### chat.png
 ### folder.png
 ### homee.png
