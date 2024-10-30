@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnitySpace - Регистрация</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-box">
+            <div class="auth-left">
+                <img src="../unityspace.png" alt="Avatar" class="avatar">
+                <div class="Title">UnitySpace - удобная и надежная социальная сеть.</div>
+            </div>
+            <div class="auth-right">
+                <div class="Form_Container-Text">Регистрация</div>
+                <form method="POST" action="register.php">
+                    <div class="input-group">
+                        <input id="name" type="text" name="name" placeholder="Имя">
+                    </div>
+                    <div class="input-group">
+                        <input id="nickname" type="text" name="nickname" placeholder="Никнейм">
+                    </div>
+                    <div class="input-group">
+                        <input id="email" type="email" name="email" placeholder="Почта">
+                    </div>
+                    <div class="input-group">
+                        <input id="password" type="password" name="password" placeholder="Пароль">
+                    </div>
+                    <div class="input-group">
+                        <label class="switch">
+                            <input type="checkbox" required>
+                            <span class="slider"></span>
+                        </label>
+                        <span class="terms-text">Я принимаю <a href="#">условия пользования</a> и <a href="#">Политику конфиденциальности</a></span>
+                    </div>
+                    <button type="submit">Зарегистрироваться</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
